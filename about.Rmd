@@ -1,0 +1,25 @@
+---
+title: "About Me"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+### Education Background
+
+**Columbia University** | New York
+
+MS Biostatistics | Sep. 2023 - May 2025
+
+**Shanghai University of International Business and Economics** | Shanghai
+
+BS E-commerce | September 2019 - June 2023
+
+### Internship Experience
+
+**iResearch Consulting Group (Shanghai) Co., Ltd.** | Data Analyst Intern | Jul. 2022 - Jan. 2023
+
+**Ipsos Market Consulting Co., Ltd.** | Social Intelligence & Analysis Intern | Feb. - May 2022
+
+**AstraZeneca** | Business Intelligence & Sales Operation Intern | Jul. - Sep. 2022

@@ -14,4 +14,4 @@ navbar:
 
 output:
   html_document:
-    theme: Journal
+    theme: journal
