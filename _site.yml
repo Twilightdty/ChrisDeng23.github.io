@@ -1,0 +1,17 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      href: about.html
+    - text: "Dashboard"
+      href: dashboard.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<td2809@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: https://github.com/Twilightdty/
+
+output:
+  html_document:
+    theme: Journal
