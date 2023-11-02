@@ -1,0 +1,20 @@
+---
+title: "Tianyuan (Chris) Deng's Personal Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Hi, welcome to my personal page!
+
+ * My name is Tianyuan Deng, you can call me Chris.
+
+ * I am now a first-year Master student in Biostatistics at Columbia University and majored in E-commerce as an undergraduate.
+
+ * I’m interested in digitalization of industry, and through my previous internships, I have learnt best practices for delivering data-driven solutions to facilitate the digital 
+transformation of pharmaceutical companies and healthcare organizations. 
+
+ * Apart from that, I have a wide range of hobbies that include reading, basketball, badminton, movies, photography, and musicals.
+ * Here's my favorite musical *Hamiliton*:
+ <img src="images/Hamilton.jpg">
