@@ -1,0 +1,66 @@
+---
+title: "dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+data("instacart")
+	
+instacart_3=instacart |> filter(department %in% c('produce','canned goods', 'beverages'))
+```
+
+---
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+```{r}
+
+instacart_3 |> 
+  count(product_name) |> 
+  arrange(desc(n)) |> 
+  head(10) |> 
+  mutate(product_name = fct_reorder(product_name, n, .desc = TRUE)) |> 
+  plot_ly(x = ~product_name, y = ~n, 
+          color = ~product_name, 
+          type = "bar", colors = "viridis") |> 
+  layout(title = "Top 10 most ordered products",
+         xaxis = list(title = "Product Name"),
+         yaxis = list(title = "Order Number"))
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+instacart_3 |> 
+  mutate(aisle = fct_reorder(aisle, order_number)) |> 
+  plot_ly(y = ~order_number, color = ~aisle, type = "box", colors = "viridis")
+
+```
+### Chart C
+
+```{r}
+instacart_3 |> 
+  group_by(order_hour_of_day) |> 
+  count(aisle) |> 
+  plot_ly(x = ~order_hour_of_day, y = ~n, 
+          type = "scatter", mode = "markers", 
+          name = ~aisle) |> 
+  layout(title = "Distribution of Order Number in a day",
+         xaxis = list(title = "Hour of day"),
+         yaxis = list(title = "Order Number"))
+```
+
+```
+
