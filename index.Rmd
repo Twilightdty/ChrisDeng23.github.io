@@ -17,4 +17,4 @@ transformation of pharmaceutical companies and healthcare organizations.
 
  * Apart from that, I have a wide range of hobbies that include reading, basketball, badminton, movies, photography, and musicals.
  * Here's my favorite musical *Hamiliton*:
- <img src="images/Hamilton.jpg">
+ <img src="images/Hamilton.jpg" style="width:75%">
