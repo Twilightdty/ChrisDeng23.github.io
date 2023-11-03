@@ -2,7 +2,6 @@
 title: "Tianyuan (Chris) Deng's Personal Website"
 output: 
   html_document:
-    css: bootstrap.css
     toc: true
     toc_float: true
 ---
