@@ -2,6 +2,7 @@
 title: "Tianyuan (Chris) Deng's Personal Website"
 output: 
   html_document:
+    css: bootstrap.css
     toc: true
     toc_float: true
 ---
@@ -17,4 +18,4 @@ transformation of pharmaceutical companies and healthcare organizations.
 
  * Apart from that, I have a wide range of hobbies that include reading, basketball, badminton, movies, photography, and musicals.
  * Here's my favorite musical *Hamiliton*:
- <img src="images/Hamilton.jpg" style="width:75%">
+ <img src="image/Hamilton.jpg" style="width:75%">

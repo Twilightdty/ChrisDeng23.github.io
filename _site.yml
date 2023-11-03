@@ -14,4 +14,4 @@ navbar:
 
 output:
   html_document:
-    theme: spacelab
+    theme: journal
